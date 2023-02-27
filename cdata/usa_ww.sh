@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# ingest weather overview images from College of DuPage
+# this should run on a cron every 5 minutes
+# make sure output directories exist!
+
 IMAGE_LOCATION_EXTERNAL="https://weather.cod.edu/cdata/satellite/regional/usa/current/usa.ww.gif"
 IMAGE_LOCATION_OUTPUT="~/ContentDelivery/met/img/"
 
